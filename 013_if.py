@@ -26,7 +26,7 @@ else:
 
 # elif
 
-pet = input("That's your fav pet? ")
+pet = input("What's your fav pet? ")
 
 if pet == 'dog':
     print("wow wow!")
@@ -39,3 +39,12 @@ elif pet == "fish":
 
 else:
     print("You're sooo boring!")
+
+
+# challenge: even or odd
+
+user_input = int(input("Please, enter a number: "))
+if ((user_input % 2) == 0):
+    print("Number is even.")
+else:
+    print("Number is odd.")

@@ -1,6 +1,6 @@
 ### Project: rock, paper scissors ###
 
-user_option = input('rock, paper, scissors => ')
+user_option = input('rock, paper, scissors => ').lower()
 computer_option = 'scissors'
 
 if user_option == computer_option:

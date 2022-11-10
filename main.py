@@ -1,7 +1,21 @@
 ### Project: rock, paper scissors ###
 
-user_option = input('rock, paper, scissors => ').lower()
-computer_option = 'scissors'
+# Here we import random
+import random
+
+options = ("rock", "papper", "scissors")
+
+print("Welcome to rock, papper, scissors game!")
+user_option = input('Please, write your choice: rock, paper, scissors => ').lower()
+
+if not user_option in options:
+    print("You entered an invalid option")
+
+
+computer_option = random.choice(options)
+
+print("User opton =>", user_option)
+print("Computer option=>", computer_option)
 
 if user_option == computer_option:
     print("It's a tie!")

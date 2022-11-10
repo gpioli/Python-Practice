@@ -6,3 +6,16 @@ Sources from learning:
 
 For practice we can use:
 replit.com
+
+
+
+## Notes
+
+
+
+
+### Data Structures
+>- [  ] = Listas
+>- ( ) = Tuplas
+>- { } = Diccionarios
+ 

@@ -6,6 +6,7 @@ This is a basic python course, with a final integrator project which is the rock
 ### Sources from learning:
 
 1 - https://platzi.com/cursos/python/
+2 - https://platzi.com/cursos/python-funciones/
 
 For practice we can use:
 replit.com

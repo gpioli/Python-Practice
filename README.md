@@ -41,3 +41,8 @@ replit.com
 >- ( ) = Tuples
 >- { } = Dictionaries
  
+| 	       | Mutable  	 | Ordered  	 | Indexing / slicing  	 | Duplicated elements  	 |
+|---------|------------|------------|-----------------------|------------------------|
+| List  	 | 	   YES    | YES	       | 	YES                  | YES	                   |
+| Tuple	  | 	NO        | 	YES       | 	YES                  | 	 YES                  |
+| SET     | 	 YES      | 	 NO       | 	 NO                  | 	 NO                   |

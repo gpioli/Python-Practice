@@ -1,5 +1,8 @@
 # https://www.w3schools.com/python/python_functions.asp
 
+# functions allow code reuse and avoid repetition
+# also makes it easier to maintain code over time
+
 # we have already worked with functions:
 print("Hello")
 

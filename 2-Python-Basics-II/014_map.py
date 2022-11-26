@@ -32,3 +32,31 @@ total_price = list(map(lambda price: price * passengers, package_price))
 print(total_price)
 price_w_taxes = list(map(lambda price: price * 1.22, total_price))
 print(price_w_taxes)
+
+# https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce
+
+# Other examples
+my_pets = ['alfred', 'tabitha', 'william', 'arla']
+print(list(map(str.upper, my_pets)))
+
+# Rounding
+circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
+rounded_areas = list(map(round, circle_areas))
+print(rounded_areas)
+# The range(1, 7) function acts as the second argument to the round function (the number of required decimal places
+# per iteration
+increasing_dec_rounded_areas = list(map(round, circle_areas, range(1, 7)))
+print(rounded_areas)
+
+# Now we will create our own zip function (zip function is a function that takes a number of iterables and then creates
+# a tuple containing each element in iterables).
+
+my_strings = ['a', 'b', 'c', 'd', 'e']
+my_numbers = [1, 2, 3, 4, 5]
+zip_result = zip(my_strings, my_numbers)
+print(list((zip_result)))
+
+# Our own zip function:
+my_zip = list(map(lambda string, number: (string, number), my_strings, my_numbers))
+print(my_zip)
+

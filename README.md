@@ -5,8 +5,8 @@ This is a basic python course, with a final integrator project which is the rock
 
 ### Sources from learning:
 
-1 - https://platzi.com/cursos/python/
-2 - https://platzi.com/cursos/python-funciones/
+> #### 1 - https://platzi.com/cursos/python/
+> #### 2 - https://platzi.com/cursos/python-funciones/
 
 For practice we can use:
 replit.com
@@ -42,7 +42,7 @@ replit.com
 >- { } = Dictionaries
  
 | 	       | Mutable  	 | Ordered  	 | Indexing / slicing  	 | Duplicated elements  	 |
-|---------|------------|------------|-----------------------|------------------------|
-| List  	 | 	   YES    | YES	       | 	YES                  | YES	                   |
-| Tuple	  | 	NO        | 	YES       | 	YES                  | 	 YES                  |
-| SET     | 	 YES      | 	 NO       | 	 NO                  | 	 NO                   |
+|---------|:----------:|:----------:|:---------------------:|:----------------------:|
+| List  	 |  	   YES   |    YES	    |         	YES          |          YES	          |
+| Tuple	  |    	NO     |    	YES    |         	YES          |         	 YES          |
+| SET     |   	 YES    |    	 NO    |         	 NO          |          	 NO          |

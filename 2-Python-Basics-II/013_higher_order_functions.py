@@ -1,4 +1,6 @@
-#
+# https://www.geeksforgeeks.org/higher-order-functions-in-python/
+# A function is called Higher Order Function if it contains other functions as a parameter or returns a function as an
+# output
 
 
 def increment(x):

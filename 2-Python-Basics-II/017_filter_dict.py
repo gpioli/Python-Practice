@@ -25,10 +25,8 @@ matches = [
 print(matches)
 print(len(matches))
 
-new_list = list(filter(lambda item: item['home_team_result'] == 'Win', matches))
+# item | condition | origin
+new_list = list(filter(lambda item: item["home_team_result"] == "Win", matches))
 
 print(new_list)
 print(len(new_list))
-
-print(matches)
-print(len(matches))

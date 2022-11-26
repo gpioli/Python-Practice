@@ -4,6 +4,7 @@
 # The explanation for this is that when working with a dictionary, as it is not a primitive data type the object itself
 # is not located in the heap memory. A reference to a dictionary is saved on the heap but the object itself is located
 # on the stack memory
+# So when we work modifying a dictionary, even temporary, we modify them
 
 items = [
     {

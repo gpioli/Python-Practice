@@ -1,4 +1,5 @@
 # We are going to work with files
+# https://realpython.com/working-with-files-in-python/
 
 file = open("./23_text_file.txt")
 # This will read all the text in the text file | If it's a big file, the memory consumption will be high

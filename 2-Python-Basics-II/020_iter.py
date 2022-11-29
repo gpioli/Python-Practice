@@ -1,4 +1,5 @@
 # Working with iterables
+# https://www.w3schools.com/python/python_iterators.asp
 
 # We have already worked with iterables:
 for i in range(1, 11):

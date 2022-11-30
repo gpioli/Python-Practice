@@ -54,6 +54,6 @@ if __name__ == "__main__":
 
     # Extra: saving data to a json file
     # Serializing json
-    json_object = json.dumps(data, indent=4)
-    print(json_object)
+    # json_object = json.dumps(data, indent=4)
+    # print(json_object)
 

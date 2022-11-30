@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 # https://matplotlib.org/
 
+
 def generate_bar_chart(labels, values):
     # variables from matplotlib => figure and coordinates from where we will start to graphic
     fig, ax = plt.subplots()

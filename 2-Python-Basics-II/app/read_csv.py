@@ -13,11 +13,11 @@ import json
 # Let's read the first row in order to get the headers:
 
 
-def read_csv(path):
-    with open(path, "r") as csvfile:
-        reader = csv.reader(csvfile, delimiter=",")  # We create a reader for our file
-        header = next(reader)
-        print(header)
+# def read_csv(path):
+#    with open(path, "r") as csvfile:
+#         reader = csv.reader(csvfile, delimiter=",")  # We create a reader for our file
+#         header = next(reader)
+#         print(header)
 
 # ['Rank', 'CCA3', 'Country/Territory', 'Capital', 'Continent', '2022 Population', '2020 Population', '2015 Population',
 # '2010 Population', '2000 Population', '1990 Population', '1980 Population', '1970 Population', 'Area (km²)',

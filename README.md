@@ -39,7 +39,8 @@ replit.com
 ### Data Structures
 >- [  ] = Lists
 >- ( ) = Tuples
->- { } = Dictionaries
+>- { } = Dictionaries / sets:
+>- 
  
 | 	       | Mutable  	 | Ordered  	 | Indexing / slicing  	 | Duplicated elements  	 |
 |---------|:----------:|:----------:|:---------------------:|:----------------------:|
